@@ -4,6 +4,144 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    margin-left: 9em;
+
+}
+
+.zbozi {
+    max-height: 440px;
+    min-height: 440px;
+    max-width: 670px;
+    min-width: 670px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #959595; 
+}
+
+.vizual {
+    display: block;
+    padding: 30px;
+    float: left;
+    width: 50%;
+    background-image: linear-gradient(#06d7c1,  #50cc49);
+    color: white;
+    max-height: 440px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.detaily {
+    display: block;
+    padding: 30px;
+    float: left;
+    width: 50%;
+    background-color: white;
+    min-height: 440px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: 500;  
+}
+
+.cenovka {
+    text-align: right;
+    position: relative;
+    top: -70px;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color:#959595; 
+}
+
+.popis {
+    border-bottom-style: solid;
+    border-color:   #06d7c1;
+    border-width: thin;
+    padding-bottom: 30px;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:30px
+}
+
+.bota {
+    position: relative;
+    left: -110px;
+    top:-10px;
+    width: 100%;
+}
+
+.velikosti {
+    padding-left: 0;
+    text-align: left;
+}
+li {
+    display: inline-block;
+    text-align: left; 
+    margin: 5px;
+    padding: 5px;
+}
+
+li:hover {
+    color:  #f15f42;
+    border-style: solid;
+    border-radius: 500px;
+    border-width: thin;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display:block;
+    text-align: center;
+}
+
+.tlacitko {
+    display: block;
+    width: 140px;
+    background-color: #f15f42;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #959595;
+    margin-top: 48px;
+    padding: 18px 20px;
+}
+
+@media (min-width:670px) {
+    .vizual {
+        width: 50%;
+        float:left;
+    }
+
+    .detaily {
+        width: 50%;
+    }
 }
 
 /*
